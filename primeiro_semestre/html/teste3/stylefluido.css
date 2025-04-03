@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+.brief {
+  font-size: 1.5rem;
+}
+.container {
+  margin: 0 auto;
+  height: 99%;
+  width: 70%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.content-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.last-contents {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content-sidebar {
+  margin-top: 10%;
+}
+.last-content-call {
+  width: 48%;
+  padding: 1% 0;
+}
+.main-footer {
+  width: 100%;
+}
