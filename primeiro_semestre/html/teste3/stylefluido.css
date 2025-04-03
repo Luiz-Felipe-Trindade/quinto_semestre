@@ -8,13 +8,19 @@ body {
   background-color: #f0f0f0;
 }
 h1 {
-  font-size: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 h2 {
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .brief {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-left: 0.3rem;
 }
 .container {
   margin: 0 auto;
@@ -30,16 +36,46 @@ h2 {
 .content-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 68%;
 }
 .last-contents {
   display: flex;
-  width: 70%;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 .content-sidebar {
-  margin-top: 10%;
+  margin-left: 1rem;
+  width: 30%;
+}
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 50%;
+  background-color: rgb(225, 224, 224);
+}
+.main-nav ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-nav li {
+  text-decoration: none;
+  list-style: none;
+  margin: 1.3rem;
+  padding: 0.7rem 2rem;
+  border: 1px solid rgb(171, 171, 171);
+  background-color: rgb(232, 232, 232);
+}
+.main-nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(56, 36, 239);
 }
 .last-content-call {
   width: 48%;
@@ -47,4 +83,9 @@ h2 {
 }
 .main-footer {
   width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  background-color: rgb(225, 224, 224);
 }
